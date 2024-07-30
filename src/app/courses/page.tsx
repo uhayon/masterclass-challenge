@@ -3,7 +3,7 @@ import { Course } from "@/interfaces/courses";
 
 async function getData(): Promise<Course[]> {
   const res = await fetch(
-    `${process.env.API_BASE_URL}/${process.env.API_VERSION_SUFFIX}/courses`,
+    `${process.env.API_BASE_URL}/${process.env.API_VERSION_SUFFIX}/courses?email=${process.env.API_USER}`,
     {
       next: {
         revalidate: 3600,
