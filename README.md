@@ -36,3 +36,7 @@ $ npm run build
 # Run the app
 $ npm run start
 ```
+
+## Comments
+- The catalog is responsive, adapting to a few screen sizes based on Tailwind breakpoints.
+- After fixing the known bugs (toast jumping before UI update), the next step would be to add a loading spinner to better give the felling of something happening on the background.
