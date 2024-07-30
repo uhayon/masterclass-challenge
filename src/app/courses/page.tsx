@@ -22,6 +22,7 @@ async function getData(): Promise<Course[]> {
   return res.json();
 }
 
+// Currently there's a hydration error that needs some reviewing
 export default async function CoursesPage() {
   const data = await getData();
 

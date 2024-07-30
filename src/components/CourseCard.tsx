@@ -43,8 +43,8 @@ export default function CourseCard({
       />
       <div className="py-2 px-4 h-full w-full flex flex-col gap-4">
         <div className="flex flex-col gap-0 items-start">
-          <h2 className="text-lg font-semibold">{instructor_name}</h2>
-          <h3 className="text-md capitalize">{title}</h3>
+          <h2 className="text-lg font-semibold text-left">{instructor_name}</h2>
+          <h3 className="text-md capitalize text-left">{title}</h3>
         </div>
         <div className="mt-auto flex justify-end">
           <svg
